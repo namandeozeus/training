@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: QS-M;
+    src:local("C:\Users\Naman\Desktop\Winter Internship - Zeus Learning\dev\Task4 - 10.1.23\assets\qs assets\Quicksand font 1\static\Quicksand-Medium.ttf");
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: Quicksand;
+}
+
+/* Header */
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    height: 56px;
+    padding: 0 24px 0 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #25313F;
+    /*
+    background: transparent url('assets/qs\ assets/header\ pattern\ image.png') 0% 0% padding-box;
+    */
+    opacity: 0.8;
+    
+}
+
+.header-right{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hr-tab{
+    margin-right: 32px;
+    font-size: 14px;
+    color: #3FD28B;
+}
+
+.hr-tab-active{
+    margin-right: 28px;
+    padding: 0 4px;
+    height: 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-bottom: #FFFFFF solid 4px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Header */
+
+/* Tabs */
+
+.tabs{
+    height: 64px;
+    margin: 24px;
+    background-color: #8DDC97;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.tabs-content{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-content-active{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #222222 solid 4px;
+}
+
+.tabs-number{
+    margin: 0 8px;
+}
+
+.tabs-text{
+    font: #222222 16px;
+
+}
+
+/* Tabs */
+
+/* Content */
+
+.content{
+    margin: 16px 24px 33px 24px;
+}
+
+.content-item{
+    width: 476px;
+    height: 246px;
+    padding: 24px 24px 0 24px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.ci-top{
+    display: flex;
+    font-size: 12px;
+    color: #666666;
+}
+
+.ci-bottom{
+    padding: 16px 24px 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: rgb(0, 0, 0, 0.12) solid 2px;
+}
+
+/* Content */
