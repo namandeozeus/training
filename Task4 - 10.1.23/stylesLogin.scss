@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+.header{
+    height: 56px;
+    padding: 0 0 0 28px;
+    display: flex;
+    align-items: center;
+    /* background: #25313F; */
+    
+    background: transparent url('assets/qs\ assets/header\ pattern\ image.png') 0% 0% padding-box;
+    
+    opacity: 0.8;
+    border-bottom: #31B9E4 solid 3px;
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+.content{
+    margin: 50px auto 32px auto;
+    padding: 20px 32px 24px 32px;
+    width: 488px;
+    height: 550px;
+    background-color: #FFFFFF;
+    border-top: #3AC7EC solid 4px;
+
+    .content-head{
+        display: flex;
+        align-items: center;
+    }
+    
+    .content-radio{
+        margin-top: 34px;
+        display: flex;
+        align-items: center;
+
+        .radio-text{
+            margin-left: 8px;
+            margin-right: 32px;
+            display: inline; 
+            font-size: 16px; 
+            font-family: Quicksand;
+        }
+    }
+
+    .content-dropdown{
+        p{
+            color: #666666;
+            font-size: 12px;
+            font-family: Quicksand;
+        }
+        select{
+            margin-top: 5px;
+            width: 100%;
+            display: block;
+            color: #222222;
+            font-size: 16px;
+            font-family: Quicksand;
+            background-color: transparent;
+            border: none;
+            border-bottom: rgb(0, 0, 0, 0.12) solid 1px;
+        }
+    }
+    
+    .content-input{
+        input{
+            width: 100%;
+            display: inline;
+            color: #666666;
+            font-size: 16px;
+            font-family: Quicksand;
+            background-color: transparent;
+            border: none;
+            border-bottom: rgb(0, 0, 0, 0.12) solid 1px;
+        }
+        i{
+            position: absolute;
+            margin-left: -30px;
+            margin-top: -5px;
+            
+        }
+        p{
+            margin-top: 5px;
+            color: #1F7A54;
+            font-size: 14px;
+            font-family: Quicksand;
+            text-align: right;
+        }
+        
+    }
+
+    .content-checkbox{
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn-login{
+        display: flex;
+        justify-content: center;
+
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 215.5px;
+            margin: 34px auto 0 auto;
+            background-color: #3FD28B;
+            color: #1F2834;
+            font-size: 14px;
+            font-family: Quicksand;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 3px 5px #0000003D;
+        }
+    }
+
+}
+
+.contact{
+    margin-bottom: 16px;
+    display: flex;
+    justify-items: center;
+
+    .contact-item{
+        display: flex;
+        justify-items: center;
+        margin: 0 auto;
+
+        p{
+            padding: 0 8px;
+            color: #1F7A54;
+            font-size: 14px;
+            font-family: Quicksand;
+        }
+
+    }
+
+}
+
+.footer{
+    height: 40px;
+    background-color: #E0E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        padding: 5px 16px;
+
+        p{
+            color: #616161;
+            font-size: 12px;
+            font-family: Quicksand;
+        }
+    }
+
+}
