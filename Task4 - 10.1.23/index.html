@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Quantum</title>
+    <title>Quantum Dashboard</title>
 </head>
 <body>
     <header class="header">
@@ -39,24 +39,97 @@
             <p>Showing 4 of 4 courses</p>
         </div>
         <div class="details-item">
-            <p>Sort by: </p>
+            <p style="display: inline; margin-right: 6px;">Sort by: </p>
             <select name="course-name" id="course-name">
                 <option value="Course Name">Course Name</option>
             </select>
+            <img src="assets/qs assets/icons/sort.svg" alt="Sort Icon" style="margin-left: 24px;">
         </div>
     </div>
     <div class="content">
         <div class="content-item">
+            <div class="favourite-icon">
+                <img src="assets/qs assets/icons/favourite.svg" alt="Favourite Icon">
+            </div>
             <div class="ci-top">
-                <img src="assets/qs assets/images/imageMask-1.svg" alt="" width="132px" height="157px">
-                <div>
-                    <p>Acceleration</p>
-                    <p>Physics <span>Grade 7 <span>+2</span></span></p>
-                    <p>4 Units 18 Lessons 24 Topics</p>
+                <img src="assets/qs assets/images/imageMask-1.svg" alt="" width="132px" height="157px" style="margin-right: 16px;">
+                <div style="display: flex; flex-direction: column; align-items: stretch;">
+                    <p style="color: #222222; font-size: 16px;">Acceleration</p>
+                    <p> <span style="padding-right: 9px; border-right:  rgb(0, 0, 0, 0.12) solid 1px;">Physics</span><span style="padding-left: 9px;">Grade 7 <span style="color: #1F7A54;">+2</span></span></p>
+                    <p style="margin: 0;"><span class="ci-top-num">4</span> Units&nbsp; <span class="ci-top-num">18</span> Lessons&nbsp; <span class="ci-top-num">24</span> Topics</p>
                     <select name="class" id="class">
                         <option value="">Mr. Frank's Class B</option>
                     </select>
-                    <p>50 students 21-Jan-2020 - 21-Aug-2020</p>
+                    <p> <span style="padding-right: 8px; border-right:  rgb(0, 0, 0, 0.12) solid 1px;">50 students</span> <span style="padding-left: 8px;">21-Jan-2020 - 21-Aug-2020</span> </p>
+                </div>
+            </div>
+            <div class="ci-bottom">
+                <img src="assets/qs assets/icons/preview.svg" alt="Preview Icon">
+                <img src="assets/qs assets/icons/manage course.svg" alt="Manage Course Icon">
+                <img src="assets/qs assets/icons/grade submissions.svg" alt="Grade Submissions Icon">
+                <img src="assets/qs assets/icons/reports.svg" alt="Reports Icon">
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="favourite-icon">
+                <img src="assets/qs assets/icons/favourite.svg" alt="Favourite Icon">
+            </div>
+            <div class="ci-top">
+                <img src="assets/qs assets/images/imageMask-2.svg" alt="" width="132px" height="157px" style="margin-right: 16px;">
+                <div style="display: flex; flex-direction: column; align-items: stretch;">
+                    <p style="color: #222222; font-size: 16px;">Displacement, Velocity and&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Speed</p>
+                    <p> <span style="padding-right: 9px; border-right:  rgb(0, 0, 0, 0.12) solid 1px;">Physics 2</span><span style="padding-left: 9px;">Grade 6 <span style="color: #1F7A54;">+3</span></span></p>
+                    <p style="margin: 0;"><span class="ci-top-num">2</span> Units&nbsp; <span class="ci-top-num">15</span> Lessons&nbsp; <span class="ci-top-num">20</span> Topics</p>
+                    <select name="class" id="class" >
+                        <option value="" disabled selected hidden style="color: #222222; opacity: 0.4;">No Classes</option>
+                    </select>
+                    
+                </div>
+            </div>
+            <div class="ci-bottom">
+                <img src="assets/qs assets/icons/preview.svg" alt="Preview Icon">
+                <img src="assets/qs assets/icons/manage course.svg" alt="Manage Course Icon" style="opacity: 0.4;">
+                <img src="assets/qs assets/icons/grade submissions.svg" alt="Grade Submissions Icon" style="opacity: 0.4;">
+                <img src="assets/qs assets/icons/reports.svg" alt="Reports Icon">
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="favourite-icon">
+                <img src="assets/qs assets/icons/favourite.svg" alt="Favourite Icon">
+            </div>
+            <div class="ci-top">
+                <img src="assets/qs assets/images/imageMask.svg" alt="" width="132px" height="157px" style="margin-right: 16px;">
+                <div style="display: flex; flex-direction: column; align-items: stretch;">
+                    <p style="color: #222222; font-size: 16px;">Introduction to Biology: Micro organisms and how they affec...</p>
+                    <p> <span style="padding-right: 9px; border-right:  rgb(0, 0, 0, 0.12) solid 1px;">Biology</span><span style="padding-left: 9px;">Grade 4 <span style="color: #1F7A54;">+1</span></span></p>
+                    <p style="margin: 0;"><span class="ci-top-num">5</span> Units&nbsp; <span class="ci-top-num">16</span> Lessons&nbsp; <span class="ci-top-num">22</span> Topics</p>
+                    <select name="class" id="class">
+                        <option value="">All Classes</option>
+                    </select>
+                    <p> <span style="padding-right: 8px;">300 students</span> </p>
+                </div>
+            </div>
+            <div class="ci-bottom">
+                <img src="assets/qs assets/icons/preview.svg" alt="Preview Icon">
+                <img src="assets/qs assets/icons/manage course.svg" alt="Manage Course Icon" style="opacity: 0.4;">
+                <img src="assets/qs assets/icons/grade submissions.svg" alt="Grade Submissions Icon" style="opacity: 0.4;">
+                <img src="assets/qs assets/icons/reports.svg" alt="Reports Icon">
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="favourite-icon">
+                <img src="assets/qs assets/icons/favourite.svg" alt="Favourite Icon">
+            </div>
+            <div class="ci-top">
+                <img src="assets/qs assets/images/imageMask-3.svg" alt="" width="132px" height="157px" style="margin-right: 16px;">
+                <div style="display: flex; flex-direction: column; align-items: stretch;">
+                    <p style="color: #222222; font-size: 16px;">Introduction to High School Mathematics</p>
+                    <p> <span style="padding-right: 9px; border-right:  rgb(0, 0, 0, 0.12) solid 1px;">Mathematics</span><span style="padding-left: 9px;">Grade 8 <span style="color: #1F7A54;">+3</span></span></p>
+                    <p style="margin: 0;"><span class="ci-top-num">4</span> Units&nbsp; <span class="ci-top-num">18</span> Lessons&nbsp; <span class="ci-top-num">24</span> Topics</p>
+                    <select name="class" id="class">
+                        <option value="">Mr. Frank's Class A</option>
+                    </select>
+                    <p> <span style="padding-right: 8px; border-right:  rgb(0, 0, 0, 0.12) solid 1px;">44 students</span> <span style="padding-left: 8px;">14-Oct-2019 - 20-Oct-2020</span> </p>
                 </div>
             </div>
             <div class="ci-bottom">
@@ -67,7 +140,14 @@
             </div>
         </div>
     </div>
-    <footer>
+
+    <div class="contact">
+        <div class="contact-item">
+            <p>About</p>
+            <p>Contact Us</p>
+        </div>
+    </div>
+    <footer class="footer">
         <div>
             <img src="assets/qs assets/icons/logo used in footer.svg" alt="Logo">
         </div>
