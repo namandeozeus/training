@@ -1,0 +1,104 @@
+[
+    {
+         "expired":false,
+         "image":"assets/qs assets/images/imageMask-1.svg",
+         "title":"Acceleration",
+         "subject":
+         {
+              "name" : "Physics | Grade 7",
+              "point" : "+2",
+              "index" : 
+              [
+                   [4,"Units"],
+                   [18,"Lessons"],
+                   [24,"Topics"]
+              ]
+         },
+         "class":
+         [
+              "Mr. Frank's Class B",
+              "Other"
+         ],
+         "number_of_studentss" : 50,
+         "date" : "21-Jan-2020 - 21-Aug-2020",
+         "favourite":true,
+         "class_available":true,
+         "opacity_less":false
+    },
+    {
+         "expired":false,
+         "image":"assets/qs assets/images/imageMask-2.svg",
+         "title":"Displacement, Velocity and Speed",
+         "subject":
+         {
+              "name" : "Physics 2 | Grade 6",
+              "point" : "+3",
+              "index" : 
+              [
+                   [2,"Units"],
+                   [15,"Lessons"],
+                   [20,"Topics"]
+              ]
+         },
+         "class":
+         [
+              "No Classes",
+              "Other"
+         ],
+         "number_of_students" : null,
+         "date" : null,
+         "favourite":true,
+         "class_availableable":false,
+         "opacity_less":true
+    },
+    {
+         "expired":false,
+         "image":"assets/qs assets/images/imageMask.svg",
+         "title":"Introduction to Biology: Micro organisms and how they affec...",
+         "subject":
+         {
+              "name" : "Biology | Grade 6 ",
+              "point" : "+1",
+              "index" : 
+              [
+                   [5,"Units"],
+                   [16,"Lessons"],
+                   [22,"Topics"]
+              ]
+         },
+         "class":
+         [
+              "All Classes",
+              "Other"
+         ],
+         "number_of_students" : 300,
+         "date" : null,
+         "favourite":true,
+         "class_available":true,
+         "opacity_less":true
+    },
+    {
+         "expired":true,
+         "image":"assets/qs assets/images/imageMask-3.svg",
+         "title":"Introduction to High School Mathematics",
+         "subject":
+         {
+              "name" : "Mathematics | Grade 8 ",
+              "point" : "+3",
+              "index" : 
+              [
+                   
+              ]
+         },
+         "class":
+         [
+              "Mr. Frank's Class A",
+              "Other"
+         ],
+         "number_of_students" : 44,
+         "date" : "14-Oct-2019 - 20-Oct-2020",
+         "favourite":false,
+         "class_available":true,
+         "opacity_less":false
+    }
+]
