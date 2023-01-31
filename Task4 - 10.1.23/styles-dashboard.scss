@@ -173,19 +173,19 @@ body{
     margin-bottom: 16px;
     display: flex;
     justify-items: center;
-}
 
-.contact-item{
-    display: flex;
-    justify-items: center;
-    margin: 0 auto;
-}
+    .contact-item{
+        display: flex;
+        justify-items: center;
+        margin: 0 auto;
 
-.contact-item > p{
-    padding: 0 8px;
-    color: #1F7A54;
-    font-size: 14px;
-    font-family: Quicksand;
+        p{
+            padding: 0 8px;
+            color: #1F7A54;
+            font-size: 14px;
+            font-family: Quicksand;
+        }
+    }
 }
 
 .footer{

@@ -153,14 +153,12 @@ body {
   display: flex;
   justify-items: center;
 }
-
-.contact-item {
+.contact .contact-item {
   display: flex;
   justify-items: center;
   margin: 0 auto;
 }
-
-.contact-item > p {
+.contact .contact-item p {
   padding: 0 8px;
   color: #1F7A54;
   font-size: 14px;
@@ -181,4 +179,4 @@ body {
   color: #616161;
   font-size: 12px;
   font-family: Quicksand;
-}/*# sourceMappingURL=stylesDashboard.css.map */
+}/*# sourceMappingURL=styles-dashboard.css.map */
