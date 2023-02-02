@@ -1,0 +1,164 @@
+
+<mat-stepper [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+		<mat-card class="personal-information">
+			<mat-card-content class="mcc-personal-information">
+				<form class="details">
+					<ng-template matStepLabel>Personal Information</ng-template>
+					<label for="first-name" class="field-label">First Name*</label><br>
+					<input type="text" name="first-name" id="first-name" class="data-input"><br>
+					<label for="last-name" class="field-label">Last Name*</label><br>
+					<input type="text" name="last-name" id="last-name" class="data-input"><br>
+					<label for="first-name" class="field-label">Email*</label><br>
+					<input type="email" name="email" id="email" class="data-input"><br>
+					<label for="phone-number" class="field-label">Phone Number*</label><br>
+					<input type="text" name="phone-number" id="phone-number" class="data-input"><br>
+					
+					<label for="resume" class="resume-label">
+						<!-- <img src="../../../icons/Upload_black_24dp.svg" alt="Upload Icon"> -->
+						UPLOAD RESUME
+						<input type="file" name="resume" id="resume" class="resume-input"><br>
+					</label>
+					
+
+
+					<label for="portfolio-url" class="field-label">Enter Portfolio URL (if any)</label><br>
+					<input type="portfolio-url" name="portfolio-url" id="portfolio-url" class="data-input"><br>
+		
+					<label for="" class="field-label">Preferred Job Roles*</label><br>
+					<div class="job-checkboxes">
+						<div class="checkbox-item">
+							<input type="checkbox" name="instructional-designer" id="instructional-designer">
+							<label for="instructional-designer" class="job-checkbox-label">Instructional Designer</label><br>
+						</div>
+						<div class="checkbox-item">
+							<input type="checkbox" name="software-engineer" id="software-engineer">
+							<label for="software-engineer" class="job-checkbox-label">Software Engineer</label><br>
+						</div>
+						<div class="checkbox-item">
+							<input type="checkbox" name="software-quality-engineer" id="software-quality-engineer">
+							<label for="software-quality-engineer" class="job-checkbox-label">Software Quality Engineer</label><br>
+						</div>
+					</div>
+					
+					<br>
+					<label for="referral" class="field-label">If You Are Registering Via A Referral, Please Mention Full Name Of The Employee Who Referred You</label><br>
+					<input type="text" name="referral" id="referral" class="data-input"><br>
+					<div class="updates-checkbox">
+						<input type="checkbox" name="updates" id="updates">
+						<label for="updates" class="updates-label">Send me job related updates via mail</label><br>
+					</div>
+					
+				 </form>
+			</mat-card-content>
+		</mat-card>
+		<div class="bottom-btn-container">
+			<button class="bottom-btn-next" matStepperNext>Next</button>
+		</div>
+    </mat-step>
+
+
+
+    <mat-step [stepControl]="secondFormGroup" label="Qualifications">
+		<mat-accordion multi>
+
+			<mat-expansion-panel class="educational-qualifications" class="mep">
+				<mat-expansion-panel-header class="mep-header">
+					<mat-panel-title>
+						Educational Qualifications
+					</mat-panel-title>
+					<mat-panel-description>
+					
+					</mat-panel-description>
+				</mat-expansion-panel-header>
+
+				<div class="expansion-panel-content">
+					<div class="mep-top">
+						<label for="aggregate-percentage" class="field-label">Aggregate Percentage*</label><br>
+						<input type="text" name="aggregate-percentage" id="aggregate-percentage" class="data-input"><br>
+						
+						<label for="year-of-passing" class="field-label">Year of Passing*</label><br>
+						<select name="year-of-passing" id="year-of-passing" class="mep-dropdown">
+							<option value="2020">2020</option>
+							<option value="2020">2021</option>
+							<option value="2020">2022</option>
+							<option value="2020">2023</option>
+						</select>
+					</div>
+					
+					<br>
+					<div class="mep-dropdown-container">
+						<div class="mep-dropdown-container-item">
+							<label for="qualification" class="field-label">Qualification*</label><br>
+							<select name="qualification" id="qualification" class="mep-dropdown">
+								<option value="b-tech">Bachelor in Technology (B.Tech)</option>
+							</select>
+						</div>
+						<div class="mep-dropdown-container-item">
+							<label for="stream" class="field-label">Stream*</label><br>
+							<select name="stream" id="stream" class="mep-dropdown">
+								<option value="information-technology">Information Technology</option>
+							</select>
+						</div>
+					</div>
+					<div class="mep-dropdown-container">
+						<div class="mep-dropdown-container-item">
+							<label for="college" class="field-label">College*</label><br>
+							<select name="college" id="college" class="mep-dropdown">
+								<option value="PIT">Pune Institute of Technology (PIT)</option>
+							</select>
+						</div>
+						<div class="mep-dropdown-container-item">
+							<label for="others" class="field-label">If others, please enter your college name</label><br>
+							<input type="text" name="others" id="others" class="data-input">
+						</div>
+					</div>
+
+					<div class="mep-top">
+						<label for="college-location" class="field-label">Where is your college located?*</label><br>
+						<input type="text" name="college-location" id="college-location" class="data-input"><br>
+					</div>
+
+				</div>
+			  	
+ 
+
+			</mat-expansion-panel>
+			 
+			<mat-expansion-panel class="professional-qualifications" class="mep">
+				<mat-expansion-panel-header class="mep-header">
+					<mat-panel-title>
+						Professional Qualifications
+					</mat-panel-title>
+					<mat-panel-description>
+					
+					</mat-panel-description>
+				</mat-expansion-panel-header>
+			  	
+				<label for="applicant-type">Applicant Type*</label><br>
+				<input type="radio" name="applicant-type" id="fresher">
+				<label for="fresher">Fresher</label>
+				<input type="radio" name="applicant-type" id="experienced">
+				<label for="experienced">Experienced</label>
+				<br>
+			</mat-expansion-panel>
+
+		</mat-accordion>
+		
+
+		<div class="bottom-btn-container">
+			<button class="bottom-btn-previous" matStepperPrevious>Previous</button>
+			<button class="bottom-btn-next" matStepperNext>Next</button>
+		</div>
+    </mat-step>
+
+
+    <mat-step>
+		<ng-template matStepLabel>Review and Proceed</ng-template>
+		<p>Personal Information</p>
+		<div>
+			<button mat-button matStepperPrevious>Back</button>
+			<button mat-button (click)="stepper.reset()">Reset</button>
+		</div>
+    </mat-step>
+</mat-stepper>
