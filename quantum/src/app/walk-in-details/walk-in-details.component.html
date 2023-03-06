@@ -1,0 +1,33 @@
+
+<div class="walk-in-details-container">
+    <div class="walk-in-details-item" *ngFor="let walkInListItem of details">
+        <div class="title"> {{ walkInListItem.title }}</div>
+        
+        <div class="label">Date & Time:</div>
+        <div>    
+            <div class="date-location">
+                <div class="date">
+                    {{ walkInListItem.startDate }} to {{ walkInListItem.endDate }} 
+                </div>
+                <div class="location">
+                    {{ walkInListItem.location }}
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div>
+            <div class="label">
+                Job Roles:
+            </div>
+            <div class="job-roles">
+                <div class="job-roles-item" *ngFor="let jobRole of walkInListItem.jobRoles">
+                    <img src="" alt="">
+                    <span>{{ jobRole.title }}</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>

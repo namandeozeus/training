@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 55px;
+  background: transparent url("../../../icons/header pattern svg.svg") 0% 0% padding-box;
+  display: flex;
+}
+.header .header-logo {
+  margin: 9px 0 0 24px;
+  height: 45px;
+  width: 500px;
+  background: transparent url("../../../icons/Zeus-LMS-logo.svg") 0% 0% padding-box;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=header.component.css.map */

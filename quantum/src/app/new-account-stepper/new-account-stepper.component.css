@@ -1,0 +1,158 @@
+* {
+  font-family: Quicksand;
+}
+
+mat-stepper {
+  margin: 0;
+}
+
+/* Personal Information */
+.personal-information {
+  margin: 24px 0 0 0;
+}
+.personal-information .mcc-personal-information {
+  padding: 24px;
+}
+.personal-information .mcc-personal-information .mat-mdc-card-content:first-child {
+  padding: 24px;
+}
+.personal-information .mcc-personal-information .mat-mdc-card-content:last-child {
+  padding: 24px;
+}
+.personal-information .mcc-personal-information .details {
+  width: 50%;
+}
+.personal-information .mcc-personal-information .details .field-label {
+  color: #666666;
+  font-size: 12px;
+}
+.personal-information .mcc-personal-information .details .data-input {
+  margin: 12px 0 40px 0;
+  color: #222222;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.12) solid 1px;
+  width: 100%;
+}
+.personal-information .mcc-personal-information .details .resume-label {
+  display: block;
+  margin: 7px 0 43px 0;
+  font-size: 14px;
+  color: #1F7A54;
+}
+.personal-information .mcc-personal-information .details .resume-label .resume-input {
+  display: none;
+}
+.personal-information .mcc-personal-information .details .job-checkboxes {
+  margin: 18px 0 42px 0;
+}
+.personal-information .mcc-personal-information .details .job-checkboxes .checkbox-item {
+  margin: 0 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+.personal-information .mcc-personal-information .details .job-checkboxes .job-checkbox-label {
+  font-size: 16px;
+  margin: 0 0 0 9px;
+}
+.personal-information .mcc-personal-information .details .updates-checkbox {
+  display: flex;
+  align-items: center;
+}
+.personal-information .mcc-personal-information .details .updates-checkbox .updates-label {
+  font-size: 14px;
+  margin: 0 0 0 8px;
+}
+
+.bottom-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+}
+.bottom-btn-container .bottom-btn-next {
+  margin-right: 16px;
+  padding: 5px 27px;
+  background-color: #3FD28B;
+  font-size: 14px;
+  color: #1F2834;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2392156863);
+}
+.bottom-btn-container .bottom-btn-previous {
+  margin-right: 16px;
+  padding: 5px 16px;
+  background-color: #3FD28B;
+  font-size: 14px;
+  color: #1F2834;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2392156863);
+}
+
+/* Personal Information */
+/* Qualifications */
+::ng-deep .mep .mat-expansion-panel-body {
+  padding: 0;
+}
+
+.mep {
+  margin: 24px 24px 0 24px;
+}
+.mep .expansion-panel-content {
+  padding: 24px;
+}
+.mep .mep-top {
+  width: 20%;
+}
+.mep .field-label {
+  color: #666666;
+  font-size: 12px;
+}
+.mep .data-input {
+  margin: 12px 0 40px 0;
+  color: #222222;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.12) solid 1px;
+  width: 100%;
+}
+.mep .data-input-nomargin {
+  margin: 0;
+  color: #222222;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.12) solid 1px;
+  width: 100%;
+}
+.mep .mep-dropdown-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-grow: 1;
+  gap: 24px;
+}
+.mep .mep-dropdown-container .mep-dropdown-container-item {
+  width: 50%;
+}
+.mep .mep-dropdown {
+  margin: 12px 0 40px 0;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.12) solid 1px;
+  width: 100%;
+}
+
+.mep-header {
+  background-color: #DBEFFF;
+  font-size: 16px;
+}
+
+/* Qualifications */
+/* Review */
+/* Review *//*# sourceMappingURL=new-account-stepper.component.css.map */
